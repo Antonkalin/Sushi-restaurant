@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+/* Global */
+
+ html, body{ 
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    overflow-x: hidden;
+} 
+.row {
+  padding-right: 0px;
+  margin-right: 0px ;
+}
+
+.clr-red{
+  color: #FF4040;
+}
+.clr-black{
+  color: rgb(39, 39, 39);
+}
+
+.h1-header{
+font-weight: 900 ;
+font-family: 'Montserrat', sans-serif;  
+
+}
+.h3-header{
+font-weight: 200 ;
+font-family: 'Montserrat', sans-serif;  
+
+}
+/* Fixes */
+.jumbotron{
+  margin-top: 0px !important;
+  margin-bottom: 0px !important; 
+  padding-top: 0px !important;
+  padding-bottom: 0px !important; 
+
+}
+
+.narrow {
+  margin-top: 0px !important;
+  padding-top: 60px !important;
+  margin-bottom:0px !important;
+  width: 65%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+
+p {
+  font-size: 19px;
+  font-weight: 100;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 35px;
+}
+modal-dialog  p{
+  font-size: 14px;
+}
+.text-mute{
+color: #dfdfdf !important;
+}
+
+/* Global ^  */
+.h3-logo{
+  color: white;
+  background: #101010;
+  padding-bottom: 5px;
+  padding-left: 5px; 
+  padding-right: 5px;
+  display: inline;
+
+}
+
+.brand-logo{
+    height: 30px;
+    margin-bottom: 10px;
+}
+.reservation-brand-logo{
+    height: 30px;
+    margin-top: 10px;
+
+}
+
+.brand-text {
+    margin: 0 0 0 10px;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+}
+
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.6)!important;
+}
+.collapse {
+   margin: 0 20px 0 0;
+}
+
+/* nav instagram icon */
+.faInsta{
+  position: relative;
+  top: 2px;
+  font-size: 36px !important;
+  margin-left: 5px;
+  margin-right: 20px;
+  color: white;
+}
+/* footer insta icon */
+.faInsta2{
+  position: relative;
+  top: 2px;
+  font-size: 46px !important;
+  margin-left: 5px;
+  margin-right: 20px;
+  color: white;
+}
+/* nav facebook icon */
+.faFacebook{
+  font-size: 31px;
+  margin-left: 5px;
+  color: white;
+}
+/* Hover over Icons change color */
+.nav-socials svg.svg-inline--fa:hover{
+  color: #FF4040 !important;
+}
+
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  z-index: -1;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/*--- Landing Page --- */
+.home-inner{
+  background-image: url(../img/inside-rest.jpg);
+  filter: brightness(70%);
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+
+  .caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38% ;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+  }
+  .caption h1 {
+    font-size: 3.8rem;
+    font-weight: 900;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8ren black;
+    padding-bottom: 1rem; 
+  }
+  .caption h3 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+  }
+  .btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+  }
+ .row img {
+   max-width: 350px;
+   margin-bottom: 30px;
+  
+ }
+
+  /*--- Course Section ---*/
+.fa-fish {
+  margin-bottom: 30px;
+}
+
+.narrow h1 {
+  font-size: 1.7rem;
+  font-weight: 500s;
+}
+.narrow h2 {
+  font-size: 1.2rem;
+  font-weight: 500s;
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 2rem 0 3.5rem;
+  border-radius: 0;
+  margin-bottom: 0px !important;
+}
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+}
+.heading-underline {
+  width: 100px;
+  border-radius: 20%;
+  height: .2rem;
+  background-color: #218838;
+  margin: 0 auto 2rem;
+}
+
+#fixed {
+	background:	url(../img/sashimi.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60vh;
+	position: relative;
+	width: 100%;
+  background-size: cover;
+  background-position: center center;
+  
+}
+/* GOOGLE MAP */
+.map-black-white {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+ }
+
+iframe{
+   display: block;
+   width: 100vw;
+   height: 350px;
+   max-height: 500px;
+   margin: auto;
+ }
+
+
+ hr.socket {
+  width: 100%;
+  border-top: .2rem solid silver;
+  margin-top: 3rem; 
+}
+
+.modal-footer {
+  margin: 0 auto;
+}
+
+.modal-header-text {
+  margin: 0 auto;
+}
+.modal-header{
+  background: #2c2c2c;
+	width: 100%;
+  background-size: cover;
+  color: white;
+}
+.form-control{
+  background: rgb(236, 236, 236) !important;
+}
+.modal-open {
+  overflow: inherit !important;
+}
+.modal {
+    overflow-y: hidden !important;
+}
+#datetime2{
+  height: 32px !important;
+}
+
+footer {
+  background-color: #212427;
+  color: white;
+  padding: 2rem 0 2rem;
+  /* margin-top: 1rem; */
+}
+footer a {
+  color: white;
+}
+footer svg.svg-inline--fa {
+  font-size: 2.5rem;
+  margin: 1.2rem .5rem 15px 0;
+}
+footer svg.svg-inline--fa:hover{
+  color: #ff433d !important;
+}
+hr.socket {
+  width: 100%;
+  border-top: 1px solid #5e5e5e;
+  margin-top: 9px; 
+}
+
+/*--- Media Queries --*/
+
+
+  .caption h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+  .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    
+  }
+  .btn .btn-outline-light .btn-lg {
+  transform: scale(1.1);
+  transition: transform .75s ease;
+  background: #fcfcfc !important;
+  transition: background .55s ease;
+  -webkit-transition: background .75s ease;
+  -moz-transition: background .75s ease;
+} 
+  .narrow h1 {
+    font-size: 1.5rem;
+  }
+  .clients img {
+    max-width: 50%;
+    display:block;
+    margin: 0 auto;
+  }
+
+
+
+/* Reservations CSS - Start - */
+
+.gallery {
+    margin: 10px 50px;
+
+}
+
+.gallery img {
+    transition: .5s;
+    padding: 15px;
+    width: 300px;
+    }
+
+ .gallery img:hover{
+     /* filter: grayscale(100%); */
+     transform: scale(1.1);
+ } 
+
+
+/* @media (max-width: 767px) {
+  .caption h1 {
+    font-size: 2.3rem;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+  } */
+
+@media (max-width: 400px) {
+  .row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }}
+  @media (max-width: 400px) {
+  .gallery {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }}
+
+   @media (max-width: 400px) {
+  .narrow {
+    width: 90%;
+  }}
