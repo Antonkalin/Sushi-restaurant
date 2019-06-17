@@ -146,7 +146,7 @@ color: #dfdfdf !important;
 }
 /*--- Landing Page --- */
 .home-inner{
-  background-image: url(../img/inside-rest.jpg);
+  background-image: url(../img/inside-restaurant.png);
   filter: brightness(70%);
   position: fixed;
   display: table;
